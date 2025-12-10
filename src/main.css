@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+@layer utilities {
+.gree {
+    background-color: #8c60c5; /* Your custom color */
+  }
+  
+}
+@layer base {
+  html {
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+}
